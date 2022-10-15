@@ -7,3 +7,5 @@ MIT
 <p>2.0.0 - adicao postgre nas configurações</p>
 
 <p>3.0.0 - melhorando o readme</p>
+
+<p>4.0.0 - correção de task em local errado</p>
