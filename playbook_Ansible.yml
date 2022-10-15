@@ -23,7 +23,7 @@
     - name: restart apache
       service: name=apache2 state=restarted
       
- tasks:
+ 
   - name: Ensure apache is at the latest version
     ansible.builtin.yum:
       name: httpd
@@ -37,7 +37,7 @@
   hosts: databases
   remote_user: root
 
-  tasks:
+  
   - name: Ensure postgresql is at the latest version
     ansible.builtin.yum:
       name: postgresql
